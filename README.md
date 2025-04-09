@@ -34,3 +34,11 @@ The  insurance.csv dataset includes features like:
 6. ***Region: Residential area***
 
 7. ***Charges: Individual medical costs***
+
+## Technologies Used
+
+a. Python (Pandas, NumPy, Matplotlib, Seaborn)
+
+b. Scikit-learn (Regression models, preprocessing)
+
+c. Jupyter Notebook
