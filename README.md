@@ -75,13 +75,13 @@ Age:
 
 Distribution: Peaks at ages 20-30 (young beneficiaries dominate the dataset).
 
-Charges correlation: Strong positive correlation ([value]%) — older individuals pay higher premiums.
+Charges correlation: Strong positive correlation  — older individuals pay higher premiums.
 
 BMI:
 
 68% of beneficiaries fall in the "Overweight" or "Obese" range (BMI ≥ 25).
 
-Charges correlation: Moderate ([value]%), but smokers with high BMI pay significantly more.
+Charges correlation: Moderate , but smokers with high BMI pay significantly more.
 
 Children:
 
@@ -104,12 +104,7 @@ Sex:
 
 Males pay ~10% more than females (controlling for other factors).
 
-#### 3. Key Visualizations
 
-##### Plot	Insight
-charges_vs_age.png	Linear increase in costs with age, but spikes for smokers.
-bmi_histogram.png	Right-skewed distribution; 25% of beneficiaries are obese (BMI ≥ 30).
-correlation_heatmap.png	Strongest correlations: smoker > age > bmi.
 
 ## Model Metrics
 
