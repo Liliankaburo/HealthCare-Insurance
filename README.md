@@ -15,3 +15,22 @@ Healthcare costs are influenced by various factors such as age, BMI, smoking hab
 2. Build a predictive model to estimate insurance costs.
 
 3. Provide actionable insights for insurers and policyholders.
+
+
+## Data Understanding
+
+The  insurance.csv dataset includes features like:
+
+1. ***Age: Age of the beneficiary***
+
+2. ***Sex: Gender (male/female)***
+
+3. ***BMI: Body Mass Index***
+
+4. ***Children: Number of dependents***
+
+5. ***Smoker: Smoking status***
+
+6. ***Region: Residential area***
+
+7. ***Charges: Individual medical costs***
