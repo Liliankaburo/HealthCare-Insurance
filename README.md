@@ -98,42 +98,11 @@ Smoker Charges Comparison
 
 Region:
 
-Southeast has the highest average charges ([value]), likely due to higher BMI/smoking rates.
+Southeast has the highest average charges , likely due to higher BMI/smoking rates.
 
 Sex:
 
 Males pay ~10% more than females (controlling for other factors).
-
-
-
-## Model Metrics
-
-1. Baseline Models Comparison
-Model	RMSE	MAE	R²
-Linear Regression	[value]	[value]	[value]
-Random Forest	[value]	[value]	[value]
-XGBoost	[value]	[value]	[value]
-Best Model: Random Forest Regressor (R² = [value]).
-
-2. Feature Importance
-Top 5 features influencing predictions:
-
-smoker_yes (Impact: [value]%)
-
-age
-
-bmi
-
-region_southeast
-
-children
-
-Feature Importance
-
-3. Residual Analysis
-Residuals are normally distributed (validating linear regression assumptions).
-
-Outliers detected: Smokers with BMI ≥ 35 have the highest prediction errors.
 
 ## Key Takeaways
 
@@ -147,11 +116,11 @@ Southeast region may need targeted health interventions.
 
 ## Next Steps
 
-Add hypothesis testing (e.g., "Do smokers pay significantly more?")
+1. Add hypothesis testing (e.g., "Do smokers pay significantly more?")
 
-Include interactive plots (Plotly) in the notebook/README
+2. Include interactive plots (Plotly) in the notebook/README
 
-Deploying the model as an API
+3. Deploying the model as an API
 
 
 
