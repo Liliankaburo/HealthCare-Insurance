@@ -42,3 +42,28 @@ a. Python (Pandas, NumPy, Matplotlib, Seaborn)
 b. Scikit-learn (Regression models, preprocessing)
 
 c. Jupyter Notebook
+
+## Key Steps
+1. Data Preprocessing: Handling missing values, encoding categorical variables.
+
+2. Exploratory Data Analysis (EDA): Visualizing distributions, correlations, and outliers.
+
+3. Feature Engineering: Creating new features (e.g., BMI categories).
+
+4. Model Building: Training regression models (Linear Regression, Random Forest, etc.).
+
+5. Evaluation: Metrics like RMSE, MAE, and R² score.
+
+## Results & Insights
+
+**Top 3 Factors Affecting Insurance Costs:**
+
+1. Smoking status
+
+2. Age
+
+3. BMI
+
+**Best Model**: Random Forest Regressor (R² = 0.87).
+
+**Visualizations**: See assets/ for plots (e.g., cost vs. age, smoker/non-smoker comparison).
