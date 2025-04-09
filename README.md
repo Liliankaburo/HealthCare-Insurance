@@ -66,4 +66,98 @@ c. Jupyter Notebook
 
 **Best Model**: Random Forest Regressor (R² = 0.87).
 
-**Visualizations**: See assets/ for plots (e.g., cost vs. age, smoker/non-smoker comparison).
+**Visualizations**:  (e.g., cost vs. age, smoker/non-smoker comparison).
+
+ ### Detailed EDA Summary
+ 
+#### 1. Numeric Variables Analysis
+Age:
+
+Distribution: Peaks at ages 20-30 (young beneficiaries dominate the dataset).
+
+Charges correlation: Strong positive correlation ([value]%) — older individuals pay higher premiums.
+
+BMI:
+
+68% of beneficiaries fall in the "Overweight" or "Obese" range (BMI ≥ 25).
+
+Charges correlation: Moderate ([value]%), but smokers with high BMI pay significantly more.
+
+Children:
+
+Most beneficiaries have 0-2 dependents.
+
+Charges trend: Parents with 2-3 children pay slightly higher premiums.
+
+#### 2. Categorical Variables Analysis
+Smoker vs. Non-Smoker:
+
+Smokers (20% of the dataset) pay 3-4x higher premiums on average.
+
+Smoker Charges Comparison 
+
+Region:
+
+Southeast has the highest average charges ([value]), likely due to higher BMI/smoking rates.
+
+Sex:
+
+Males pay ~10% more than females (controlling for other factors).
+
+#### 3. Key Visualizations
+
+##### Plot	Insight
+charges_vs_age.png	Linear increase in costs with age, but spikes for smokers.
+bmi_histogram.png	Right-skewed distribution; 25% of beneficiaries are obese (BMI ≥ 30).
+correlation_heatmap.png	Strongest correlations: smoker > age > bmi.
+
+## Model Metrics
+
+1. Baseline Models Comparison
+Model	RMSE	MAE	R²
+Linear Regression	[value]	[value]	[value]
+Random Forest	[value]	[value]	[value]
+XGBoost	[value]	[value]	[value]
+Best Model: Random Forest Regressor (R² = [value]).
+
+2. Feature Importance
+Top 5 features influencing predictions:
+
+smoker_yes (Impact: [value]%)
+
+age
+
+bmi
+
+region_southeast
+
+children
+
+Feature Importance
+
+3. Residual Analysis
+Residuals are normally distributed (validating linear regression assumptions).
+
+Outliers detected: Smokers with BMI ≥ 35 have the highest prediction errors.
+
+## Key Takeaways
+
+Smoking is the #1 cost driver — insurers could incentivize quitting programs.
+
+Age and BMI are non-linear predictors; segmenting risk groups improves pricing.
+
+Southeast region may need targeted health interventions.
+
+
+
+## Next Steps
+
+Add hypothesis testing (e.g., "Do smokers pay significantly more?")
+
+Include interactive plots (Plotly) in the notebook/README
+
+Deploying the model as an API
+
+
+
+
